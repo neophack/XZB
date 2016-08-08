@@ -49,13 +49,19 @@ https://bitbucket.org/padavan/rt-n56u
 
 2. 接入路由器LAN口上，进入路由管理界面获取下载宝IP
 
-3. 浏览器登录下载宝
+3. 浏览器登录下载宝，账号密码：
 
  `admin`
 
  `admin`
+
+4. telnet登录下载宝，账号密码同3
+
+ `telnet 192.168.x.x`
 
 ##五、更新说明
 
-[2016-8-8]
-仅在原项目上添加下载宝的编译board
+ [2016-8-8] 仅在原项目上添加下载宝的编译board，关闭防火墙，开启telnet、ssh
+##六、感谢
+
+ 感谢gorden5566的汉化padavan项目对本项目的帮助
