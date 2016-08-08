@@ -1,5 +1,5 @@
 # padavan
-padavan下载宝
+padavan迅雷下载宝
 
 ##一、padavan项目地址
 https://bitbucket.org/padavan/rt-n56u
@@ -10,9 +10,9 @@ https://bitbucket.org/padavan/rt-n56u
 
 2. 添加中文语言文件，修复页面显示问题
 
-3. 添加部分机型适配文件
+3. 机型适配文件
 
-##二、汉化文件使用方法
+##二、使用方法
 
 1. 编辑install.sh，修改DESTDIR为你的项目目录
 
@@ -36,8 +36,26 @@ https://bitbucket.org/padavan/rt-n56u
 
 2. 编辑你的项目trunk目录下的.config，修改对应配置
  
- 例如：编译Xunlei XZB固件的配置
+ 例如：编译Xunlei 下载宝固件的配置
 
  `CONFIG_PRODUCT=MT7621`
  
  `CONFIG_FIRMWARE_PRODUCT_ID="XZB"`
+
+##四、刷机说明
+1. 使用Breed刷机，选择固件
+
+ `/opt/rt-n56u/trunk/images/XZB_3.4.3.9-099.trx`
+
+2. 接入路由器LAN口上，进入路由管理界面获取下载宝IP
+
+3. 浏览器登录下载宝
+
+ `admin`
+
+ `admin`
+
+##五、更新说明
+
+[2016-8-8]
+仅在原项目上添加下载宝的编译board
